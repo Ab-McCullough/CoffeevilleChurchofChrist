@@ -9,63 +9,95 @@
     <style>
 @import url('https://fonts.cdnfonts.com/css/italianno');
 </style>
+<style>
+@import url('https://fonts.cdnfonts.com/css/drakalligro');
+</style>
+                
 </head>
 <header class="header">
   Coffeeville Church Of Christ
 </header>
 <body>
-  
-<button class="tablink" onclick="openPage('Home', this, '#734f96')">Home</button>
-<button class="tablink" onclick="openPage('News', this, '#734f96')" id="defaultOpen">News</button>
+<button class="tablink active" onclick="openPage('Home', this, '#734f96')" id="home">Home</button>
+<button class="tablink" onclick="openPage('News', this, '#734f96')" id="defaultOpen">Events</button>
 <button class="tablink" onclick="openPage('Contact', this, '#734f96')">Contact</button>
 <button class="tablink" onclick="openPage('About', this, '#734f96')">About</button>
 
 <button class="tablink" onclick="openPage('Bulliton', this, '#734f96')">Bulliton</button>
-<button class="tablink" onclick="openPage('Sermons', this, '#734f96')">Sermons</button>
+<!-- <button class="tablink" onclick="openPage('Sermons', this, '#734f96')">Sermons</button> -->
 
-<div id="Home" class="tabcontent">
-  <h3>Welcome</h3>
-  <p>Welcome to the Coffeeville church of christ</p>
-  <p>We have services every</p>
-  <li>
-    Sunday Bible Class: 10 AM
-  </li>
-  <li>
-    Sunday Morning Servive: 11 AM
-  </li>
-  <li>
-     Sunday Evening Service: 6 PM
-  </li>
-  <li>
-    Wednesday Night Service: 6 PM
-  </li>
+<div id="Home" class="tabcontent" style="display: block;">
+  <div class="content">
+
+  <h class="headline">Welcome to the Coffeeville church of christ</h>
+  <p class="text">We have services every</p>
+  <p class="text">
+
+      Sunday Bible Class: 10 AM
+    <br>
+      Sunday Morning Servive: 11 AM
+    <br>
+      Sunday Evening Service: 6 PM
+    <br>
+      Wednesday Night Service: 6 PM
+    <br>
+  </p>
+</div>
+
 </div>
 
 <div id="News" class="tabcontent">
-  <h3>News</h3>
-  <p>Up Coming events</p>
+  <div class="content">
+
+  <h class="headline">Events</h>
+  <p class="text">
+  Up Coming events</p>
+</div>
+
 </div>
 
 <div id="Contact" class="tabcontent">
-  <h3>Contact</h3>
-  <p>Get in touch, or swing by for a cup of coffee.</p>
+  <div class="content">
+
+  <h class="headline">Contact</h>
+  <p class="text">
+  Get in touch, or swing by for a cup of coffee.</p>
+</div>
+
 </div>
 
 <div id="About" class="tabcontent">
-  <h3>About</h3>
-  <p>Who we are and what we do.</p>
-</div>
-<div id="Sermons" class="tabcontent">
-  <h3>About</h3>
-  <p>Pdfs of Anthonys seromen outlines</p>
-</div>
-<div id="Bulliton" class="tabcontent">
-  <h3>About</h3>
-  <p>Bulliton Week at the top</p>
+  <div class="content">
 
-  <p>
+  <h class="headline">About</h>
+  <p class="text">
+  Who we are and what we do.</p>
+</div>
+
+</div>
+
+
+<!-- <div id="Sermons" class="tabcontent">
+  <div class="content">
+
+  <h class="headline">About</h>
+  <p class="text">
+  Pdfs of Anthonys seromen outlines</p>
+
+
+</div> -->
+
+
+
+
+<div id="Bulliton" class="tabcontent"><br>
+  <h class="headline">About</h>
+  <p class="text">Bulliton Week at the top</p>
+
+  <p class="text">
     Previous bulliton's links down at the botton
   </p>
+  
 </div>
 </body>
  
