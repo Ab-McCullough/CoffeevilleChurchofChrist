@@ -48,7 +48,7 @@ body, html {
   margin-left: auto;
   
   font-family: 'Drakalligro', sans-serif;
-  font-size: 30px;
+  font-size: 120%;
                                                 
 }
 .headline{
@@ -310,7 +310,7 @@ body, html {
   font-size: 100%;
 }
 .Contact_link{
-  font-size: 60%; 
+  font-size: 90%; 
   
 }
 
